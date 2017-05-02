@@ -1,12 +1,14 @@
 #!/bin/bash
 # Setup server
 
-pip install Flask
+sudo pip install Flask
 
 git clone https://github.com/natinwave/RLWE-KEX.git
 
-#GIT_WORK_TREE=PATH/TO/HOSTED/DIR git checkout -f
+cd RLWE-KEX
 
-echo "Hello World!"
+chmod -R 755 ringlwe
+
+echo "Setup Complete! Starting app."
 
 python app.py
