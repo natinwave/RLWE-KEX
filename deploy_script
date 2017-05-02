@@ -1,5 +1,5 @@
 # Application Name:
-export DEPLOY_APP_NAME=`RLWE-KEY`
+export DEPLOY_APP_NAME=`RLWE-KEX`
 
 # This is the root deploy dir.
 export DEPLOY_ROOT="${HOME}/ringlwe"
