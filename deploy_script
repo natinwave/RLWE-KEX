@@ -61,4 +61,6 @@ done
 
 echo
 echo "githook: $(date): See you soon at '$(hostname -f)' (${IP})"
+cd ringlwe
+make
 exit 0
